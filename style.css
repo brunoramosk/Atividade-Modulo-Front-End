@@ -21,6 +21,7 @@ a {
     height: 150px;
     width: 140px;
     border-radius: 50%;
+    border: 1px solid white;
 }
 #atalhos1 {
     text-decoration: none;
@@ -76,6 +77,9 @@ h3 {
     left: 250px;
     font-size: 22px;
 }
+ol {
+    list-style: lower-alpha;
+}
 li {
     margin-top: 5px;
     font-family: 'Cinzel', serif;
@@ -121,6 +125,37 @@ li {
     top: 200px;
     left: 300px;
     font-size: 22px;
-    
+}
+@media screen and (max-width: 800px) {
 
-git }
+p {
+    font-size: 14px;
+    left: 10px;
+}
+#imagem-perfil {
+    left: 29px;
+}
+#atalhos3{
+    left: 75px;
+}
+#atalhos2{
+    left: 55px;
+}
+#atalhos1 {
+    left: 80px;
+}
+header {
+    position: absolute;
+    width: 200px;
+}
+h1 {
+    font-size: 20px;
+    left: 250px;
+    
+    
+}
+
+h2, h3 {
+    font-size: 10px;
+}
+}
